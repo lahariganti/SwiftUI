@@ -1,9 +1,9 @@
 //
 //  SceneDelegate.swift
-//  GuessTheFlag
+//  CalcSwiftUI
 //
-//  Created by Lahari on 22/12/2019.
-//  Copyright © 2019 Lahari Ganti. All rights reserved.
+//  Created by Lahari on 21/01/2020.
+//  Copyright © 2020 Lahari Ganti. All rights reserved.
 //
 
 import UIKit
@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView()
+        let contentView = ContentView().environmentObject(GlobalEnv())
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {

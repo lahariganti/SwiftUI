@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  GuessTheFlag
+//  CalcSwiftUI
 //
-//  Created by Lahari on 22/12/2019.
-//  Copyright © 2019 Lahari Ganti. All rights reserved.
+//  Created by Lahari on 21/01/2020.
+//  Copyright © 2020 Lahari Ganti. All rights reserved.
 //
 
 import UIKit
